@@ -1,5 +1,4 @@
 tap "buo/cask-upgrade"
-tap "dandavison/delta", "https://github.com/dandavison/delta"
 tap "denisidoro/tools"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -43,8 +42,8 @@ brew "youtube-dl"
 brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
-brew "dandavison/delta/git-delta"
-brew "denisidoro/tools/navi", args: ["HEAD"]
+brew "cocoapods"
+brew "gitlab-runner"
 cask "appcleaner"
 cask "authy"
 cask "bartender"
@@ -59,8 +58,7 @@ cask "firefox"
 cask "google-backup-and-sync"
 cask "google-chrome"
 cask "handbrake"
-cask "intelliscape-caffeine"
-cask "istat-menus"
+cask "caffeine"
 cask "iterm2"
 cask "java"
 cask "jetbrains-toolbox"
@@ -93,10 +91,3 @@ cask "vlc"
 cask "webpquicklook"
 cask "whatsapp"
 cask "zoomus"
-mas "1Password", id: 443987910
-mas "Disk Map", id: 715464874
-mas "Kaleidoscope", id: 587512244
-mas "Keynote", id: 409183694
-mas "Magnet", id: 441258766
-mas "Monosnap", id: 540348655
-mas "Pasta", id: 1438389787
