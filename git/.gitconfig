@@ -1,7 +1,6 @@
 [user]
-	name = Javier Ferrer
-	email = javier.mailserio@gmail.com
-	signingkey = 58271E36CB56EF2B
+	name = Daniel González Moratona
+	email = danigonzalezmoratona@gmail.com
 
 [fetch]
 	prune = true
