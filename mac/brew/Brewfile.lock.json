@@ -5,7 +5,7 @@
         "revision": "f61ca8c408de4f758c7d28e0db687126795c1b30"
       },
       "dandavison/delta": {
-        "revision": "9f258c1c1e625210306ba04af6bbadd3d1503ec7",
+        "revision": "9bb36d358daddd0f8c84e3953ef0c2b1aae538ae",
         "options": {
           "clone_target": "https://github.com/dandavison/delta"
         }
@@ -14,19 +14,19 @@
         "revision": "978c72c4e00f89ccc79a1384e0f81d31c187f716"
       },
       "homebrew/bundle": {
-        "revision": "5b2a7eeaa112fcc9c664cfd7a2f5cc9bf055b05e"
+        "revision": "538ffcbd24561213480e6f32a9ec087c91b25862"
       },
       "homebrew/cask": {
-        "revision": "c09990b2249c9872e5f174f694f4ec619b808d14"
+        "revision": "63fcaaea156115a30f5d3896cb22a50a430823ae"
       },
       "homebrew/cask-drivers": {
-        "revision": "eca093d37854a63bd71a0916ca714c3c0ea5e56d"
+        "revision": "59f9d07743878e4b1bd59c9254b11dc726c4c8f1"
       },
       "homebrew/cask-versions": {
-        "revision": "1c2449622e155ac261eb691753355bca1d8c7090"
+        "revision": "1df5da59a20f7d51e17ad2db7ecd9f4186085a4e"
       },
       "homebrew/core": {
-        "revision": "85250e720999af2009cdf2128d66bd30b75423ab"
+        "revision": "9eea020b08d12758dd955d86f5696588472f6b00"
       },
       "homebrew/services": {
         "revision": "60367a866d3ec0067773a112d8de82f966c0ada0"
@@ -786,22 +786,64 @@
         }
       },
       "gitlab-runner": {
-        "version": "13.2.1",
+        "version": "13.2.2",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/gitlab-runner-13.2.1.catalina.bottle.tar.gz",
-              "sha256": "ef6fe53b14482c108f0004ae24677abb293f1a39f6ab09676d8cf36d9483b446"
+              "url": "https://homebrew.bintray.com/bottles/gitlab-runner-13.2.2.catalina.bottle.tar.gz",
+              "sha256": "d9de7290a1c3e62e34a9e897af4605548890fe40bdc44f1b52ee9d8a3064fd01"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/gitlab-runner-13.2.1.mojave.bottle.tar.gz",
-              "sha256": "f292c1866c6f045bc4f7d21970175e3ee71d92bf1f17ee7bcb0e7664282dea02"
+              "url": "https://homebrew.bintray.com/bottles/gitlab-runner-13.2.2.mojave.bottle.tar.gz",
+              "sha256": "d4b47740a9b6fa74b0f1cce2f28c5593c64c842acc035929799765e53564fb90"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/gitlab-runner-13.2.1.high_sierra.bottle.tar.gz",
-              "sha256": "bc50eb8ded51b2ac79508fff811ab4a12ba31e0d9deaf459034c01240074a080"
+              "url": "https://homebrew.bintray.com/bottles/gitlab-runner-13.2.2.high_sierra.bottle.tar.gz",
+              "sha256": "0e51ab0b8da4296107535a021f6df449bf2cc6197271de3f82d8dff3904b4f80"
+            }
+          }
+        }
+      },
+      "git-delta": {
+        "version": "0.4.0",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/git-delta-0.4.0.catalina.bottle.tar.gz",
+              "sha256": "9e62a85823ec58d4c6bf993f93438e36b73337df39252d4b41a1a2e9b9d910b5"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/git-delta-0.4.0.mojave.bottle.tar.gz",
+              "sha256": "76dc159a257bdac33542c3c8acd2517f2a7aba152d2ec614d17f44cb797d8360"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/git-delta-0.4.0.high_sierra.bottle.tar.gz",
+              "sha256": "978cdcec12f9d5deb82dd546b103c1c975bf420dfed25a699aad4994f77a29ae"
+            }
+          }
+        }
+      },
+      "navi": {
+        "version": "2.7.1",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/navi-2.7.1.catalina.bottle.tar.gz",
+              "sha256": "57c4e06c10c8c3b0bd7675e538145708316314113bfa178de0fcb83aa7f44b5f"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/navi-2.7.1.mojave.bottle.tar.gz",
+              "sha256": "c33831c2ebbe20a6bf2754521dad5d4b99c3b40913866a1814bfca10f0a35423"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/navi-2.7.1.high_sierra.bottle.tar.gz",
+              "sha256": "48bb12b04cefc5be0521b88a0bea9fdf5a1996c9a6b237d77ea9d3c11278429a"
             }
           }
         }
@@ -809,7 +851,10 @@
     },
     "cask": {
       "1password6": {
-        "version": "6.8.9"
+        "version": "6.8.9",
+        "options": {
+          "full_name": "1password6"
+        }
       },
       "appcleaner": {
         "version": "3.5",
@@ -1101,6 +1146,66 @@
         "options": {
           "full_name": "unison"
         }
+      },
+      "alfred": {
+        "version": "4.1_1167",
+        "options": {
+          "full_name": "alfred"
+        }
+      },
+      "notion": {
+        "version": "2.0.7",
+        "options": {
+          "full_name": "notion"
+        }
+      },
+      "postman": {
+        "version": "7.29.1",
+        "options": {
+          "full_name": "postman"
+        }
+      },
+      "intellij-idea": {
+        "version": "2020.2",
+        "options": {
+          "full_name": "intellij-idea"
+        }
+      },
+      "sublime-text": {
+        "version": "3.211",
+        "options": {
+          "full_name": "sublime-text"
+        }
+      },
+      "fanny": {
+        "version": "2.3.0",
+        "options": {
+          "full_name": "fanny"
+        }
+      },
+      "cyberduck": {
+        "version": "7.4.1.33065",
+        "options": {
+          "full_name": "cyberduck"
+        }
+      },
+      "pgadmin4": {
+        "version": "4.24",
+        "options": {
+          "full_name": "pgadmin4"
+        }
+      },
+      "gimp": {
+        "version": "2.10.14",
+        "options": {
+          "full_name": "gimp"
+        }
+      },
+      "inkscape": {
+        "version": "1.0.0",
+        "options": {
+          "full_name": "inkscape"
+        }
       }
     },
     "mas": {
@@ -1118,17 +1223,25 @@
       },
       "Magnet": {
         "id": "441258766",
-        "version": "2.4.5"
+        "version": "2.4.6"
       },
       "Monosnap": {
         "id": "540348655",
-        "version": "3.6.4"
+        "version": "3.6.13"
       },
       "Pasta": {
         "id": "1438389787",
-        "version": "1.3"
+        "version": "1.3.8"
       },
-      "1password": null
+      "1password": null,
+      "Boom 2": {
+        "id": "948176063",
+        "version": "1.6.10"
+      },
+      "Xcode": {
+        "id": "497799835",
+        "version": "11.6"
+      }
     }
   },
   "system": {
@@ -1136,9 +1249,9 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.4.9",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "85250e720999af2009cdf2128d66bd30b75423ab",
+        "Homebrew/homebrew-core": "9eea020b08d12758dd955d86f5696588472f6b00",
         "CLT": "1103.0.32.62",
-        "Xcode": "11.5",
+        "Xcode": "11.6",
         "macOS": "10.15.6"
       }
     }
