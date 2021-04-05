@@ -1,8 +1,22 @@
 {
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "external": true,
+        "args": [
+            "serve"
+        ]
+    },
     // 👀 VS Code UI
     "editor.cursorBlinking": "smooth",
-    "window.zoomLevel": 0,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Gruvbox Dark Medium",
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": true,
@@ -19,11 +33,10 @@
         "Dockerfile-*": "dockerfile"
     },
     // ✍️ Editor
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
     "editor.fontFamily": "Dank Mono, Hack, Menlo, Monaco, monospace",
-    "editor.fontSize": 16,
     "editor.lineHeight": 32,
     "editor.rulers": [120],
     "editor.wordWrap": "on",
@@ -33,9 +46,10 @@
     "files.trimTrailingWhitespace": true,
     // ⬛ Terminal
     "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.fontFamily": "Dank Mono, Hack, Menlo, Monaco, monospace",
-    "terminal.integrated.fontSize": 16,
     "terminal.integrated.lineHeight": 1.4,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "MesloLGS NF,Dank Mono, Hack, Menlo, Monaco, monospace",
+    "terminal.integrated.rendererType": "canvas",
     // 👨‍💻 Programming languages
     // Avoid duplicate suggestions with PHP IntelliSense plugin
     "php.suggest.basic": false,
@@ -59,5 +73,7 @@
     "workbench.colorCustomizations": {
         "focusBorder": "#10fb7a"
     },
-    "workbench.statusBar.visible": true
+    "workbench.statusBar.visible": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.fontSize": 14
 }

@@ -8,3 +8,5 @@ zmodule zsh-users/zsh-autosuggestions
 zmodule zsh-users/zsh-syntax-highlighting
 ztermtitle='%~'
 zhighlighters=(main brackets)
+zmodule romkatv/powerlevel10k
+
