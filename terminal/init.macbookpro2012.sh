@@ -1,4 +1,5 @@
-ulimit -n 200000 200000
+this number after -n is different in macbook pro 2012, the number is from "sysctl -a | grep kern.maxfiles"
+ulimit -n 24576
 ulimit -u 2048
 
 # Enable aliases to be sudo’ed
